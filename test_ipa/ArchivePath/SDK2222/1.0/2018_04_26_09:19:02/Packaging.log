@@ -1,0 +1,124 @@
+2018-04-26 01:19:08 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f8918c79680; archive(resolved)='<IDEArchive: 0x7f8918c3f390>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7f89190493d0; teamID='Z8SE9YCY23', teamName='Beijing Viazijing Technology Co., Ltd.'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f8918c79680; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team='<IDEProvisioningBasicTeam: 0x7f89190493d0; teamID='Z8SE9YCY23', teamName='Beijing Viazijing Technology Co., Ltd.'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f8918c762c0; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team='<IDEProvisioningBasicTeam: 0x7f89190493d0; teamID='Z8SE9YCY23', teamName='Beijing Viazijing Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7f8918c789d0; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team='<IDEProvisioningBasicTeam: 0x7f89190493d0; teamID='Z8SE9YCY23', teamName='Beijing Viazijing Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7f8918c75160; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team='<IDEProvisioningBasicTeam: 0x7f89190493d0; teamID='Z8SE9YCY23', teamName='Beijing Viazijing Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7f8918c73430; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team='<IDEProvisioningBasicTeam: 0x7f89190493d0; teamID='Z8SE9YCY23', teamName='Beijing Viazijing Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7f8918c6fe70; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team='<IDEProvisioningBasicTeam: 0x7f89190493d0; teamID='Z8SE9YCY23', teamName='Beijing Viazijing Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7f891899ab20; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team='<IDEProvisioningBasicTeam: 0x7f89190493d0; teamID='Z8SE9YCY23', teamName='Beijing Viazijing Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7f8918c70bc0; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team='<IDEProvisioningBasicTeam: 0x7f89190493d0; teamID='Z8SE9YCY23', teamName='Beijing Viazijing Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7f8918b4ad50; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team='<IDEProvisioningBasicTeam: 0x7f89190493d0; teamID='Z8SE9YCY23', teamName='Beijing Viazijing Technology Co., Ltd.'>'>
+	<IDEDistributionContext: 0x7f8918c43af0; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7f8918f62ca0>', team='(null)'>
+	<IDEDistributionContext: 0x7f8918c3ff70; archive = '<IDEArchive: 0x7f8918c3f390>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f8918c79680>
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2018-04-26 01:19:08 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/liuran/Desktop/test_ipa/ArchivePath/SDK2222/1.0/2018_04_26_09:19:02/SDK2222_1.0.xcarchive/Products/Applications/SDK2222.app' '/var/folders/j1/d0wtr7yx6dq1tl5lwbqt9qhw0000gn/T/XcodeDistPipeline.M4K/Root/Payload/SDK2222.app'
+2018-04-26 01:19:08 +0000  >>> Copying /Users/liuran/Desktop/test_ipa/ArchivePath/SDK2222/1.0/2018_04_26_09:19:02/SDK2222_1.0.xcarchive/Products/Applications/SDK2222.app 
+2018-04-26 01:19:08 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-04-26 01:19:08 +0000  5377 bytes for ./_CodeSignature/CodeResources
+2018-04-26 01:19:08 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-04-26 01:19:08 +0000  9282 bytes for ./AppIcon60x60@2x.png
+2018-04-26 01:19:08 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-04-26 01:19:08 +0000  916 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-04-26 01:19:08 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-04-26 01:19:08 +0000  1985 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-04-26 01:19:08 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-04-26 01:19:08 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-04-26 01:19:08 +0000  1986 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-04-26 01:19:08 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-04-26 01:19:08 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-04-26 01:19:08 +0000  copying file ./Assets.car ... 
+2018-04-26 01:19:08 +0000  27048 bytes for ./Assets.car
+2018-04-26 01:19:08 +0000  copying file ./SDK2222 ... 
+2018-04-26 01:19:08 +0000  242480 bytes for ./SDK2222
+copying file ./embedded.mobileprovision ... 
+2018-04-26 01:19:08 +0000  20205 bytes for ./embedded.mobileprovision
+2018-04-26 01:19:08 +0000  copying file ./Info.plist ... 
+2018-04-26 01:19:08 +0000  1239 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2018-04-26 01:19:08 +0000  8 bytes for ./PkgInfo
+2018-04-26 01:19:08 +0000  
+2018-04-26 01:19:08 +0000  2018-04-26 01:19:08 +0000 [MT] /usr/bin/ditto exited with 0
+2018-04-26 01:19:08 +0000  
+
+2018-04-26 01:19:08 +0000  
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2018-04-26 01:19:08 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2018-04-26 01:19:08 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-04-26 01:19:08 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2018-04-26 01:19:08 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2018-04-26 01:19:08 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionODRStep
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2018-04-26 01:19:08 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/j1/d0wtr7yx6dq1tl5lwbqt9qhw0000gn/T/XcodeDistPipeline.M4K/Root/Payload/SDK2222.app'
+2018-04-26 01:19:08 +0000  2018-04-26 01:19:08 +0000  
+
+2018-04-26 01:19:08 +0000 [MT] /usr/bin/xattr exited with 0
+2018-04-26 01:19:08 +0000  2018-04-26 01:19:08 +0000  
+
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2018-04-26 01:19:08 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f8919047cc0 'com.viazijing.meeting' '<DVTFilePath:0x7f8918c3fbc0:'/Users/liuran/Desktop/test_ipa/ArchivePath/SDK2222/1.0/2018_04_26_09:19:02/SDK2222_1.0.xcarchive/Products/Applications/SDK2222.app'>'>: {
+    "application-identifier" = "Z8SE9YCY23.com.viazijing.meeting";
+    "com.apple.developer.team-identifier" = Z8SE9YCY23;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "Z8SE9YCY23.com.viazijing.meeting"
+    );
+}
+2018-04-26 01:19:08 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f8919047cc0 'com.viazijing.meeting' '<DVTFilePath:0x7f8918c3fbc0:'/Users/liuran/Desktop/test_ipa/ArchivePath/SDK2222/1.0/2018_04_26_09:19:02/SDK2222_1.0.xcarchive/Products/Applications/SDK2222.app'>'> to: /var/folders/j1/d0wtr7yx6dq1tl5lwbqt9qhw0000gn/T/XcodeDistPipeline.M4K/entitlementsrRaXBT
+2018-04-26 01:19:08 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '05D405BFDF651C8AE68AA50FB7D3BA071B71FF26' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/j1/d0wtr7yx6dq1tl5lwbqt9qhw0000gn/T/XcodeDistPipeline.M4K/entitlementsrRaXBT' '/var/folders/j1/d0wtr7yx6dq1tl5lwbqt9qhw0000gn/T/XcodeDistPipeline.M4K/Root/Payload/SDK2222.app'
+2018-04-26 01:19:08 +0000  /var/folders/j1/d0wtr7yx6dq1tl5lwbqt9qhw0000gn/T/XcodeDistPipeline.M4K/Root/Payload/SDK2222.app: signed app bundle with Mach-O universal (armv7 arm64) [com.viazijing.meeting]
+2018-04-26 01:19:08 +0000  
+2018-04-26 01:19:08 +0000  2018-04-26 01:19:08 +0000 [MT] /usr/bin/codesign exited with 0
+2018-04-26 01:19:08 +0000  
+
+2018-04-26 01:19:08 +0000  
+2018-04-26 01:19:08 +0000  
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionStreamingZipItemStep
+2018-04-26 01:19:08 +0000 [MT] Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2018-04-26 01:19:08 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/j1/d0wtr7yx6dq1tl5lwbqt9qhw0000gn/T/XcodeDistPipeline.M4K/Root' '/var/folders/j1/d0wtr7yx6dq1tl5lwbqt9qhw0000gn/T/XcodeDistPipeline.M4K/Packages/SDK2222.ipa'
+2018-04-26 01:19:08 +0000  >>> Copying /var/folders/j1/d0wtr7yx6dq1tl5lwbqt9qhw0000gn/T/XcodeDistPipeline.M4K/Root 
+2018-04-26 01:19:08 +0000  copying file ./Payload/SDK2222.app/_CodeSignature/CodeResources ... 
+2018-04-26 01:19:08 +0000  5377 bytes for ./Payload/SDK2222.app/_CodeSignature/CodeResources
+copying file ./Payload/SDK2222.app/AppIcon60x60@2x.png ... 
+2018-04-26 01:19:08 +0000  9282 bytes for ./Payload/SDK2222.app/AppIcon60x60@2x.png
+2018-04-26 01:19:08 +0000  copying file ./Payload/SDK2222.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+916 bytes for ./Payload/SDK2222.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/SDK2222.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-04-26 01:19:08 +0000  1985 bytes for ./Payload/SDK2222.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/SDK2222.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-04-26 01:19:08 +0000  258 bytes for ./Payload/SDK2222.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/SDK2222.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1986 bytes for ./Payload/SDK2222.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-04-26 01:19:08 +0000  copying file ./Payload/SDK2222.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+832 bytes for ./Payload/SDK2222.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/SDK2222.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/SDK2222.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-04-26 01:19:08 +0000  copying file ./Payload/SDK2222.app/Assets.car ... 
+2018-04-26 01:19:08 +0000  27048 bytes for ./Payload/SDK2222.app/Assets.car
+2018-04-26 01:19:08 +0000  copying file ./Payload/SDK2222.app/SDK2222 ... 
+2018-04-26 01:19:08 +0000  143568 bytes for ./Payload/SDK2222.app/SDK2222
+copying file ./Payload/SDK2222.app/embedded.mobileprovision ... 
+2018-04-26 01:19:08 +0000  12476 bytes for ./Payload/SDK2222.app/embedded.mobileprovision
+copying file ./Payload/SDK2222.app/Info.plist ... 
+2018-04-26 01:19:08 +0000  1239 bytes for ./Payload/SDK2222.app/Info.plist
+copying file ./Payload/SDK2222.app/PkgInfo ... 
+8 bytes for ./Payload/SDK2222.app/PkgInfo
+2018-04-26 01:19:08 +0000  
+2018-04-26 01:19:08 +0000  2018-04-26 01:19:08 +0000 [MT] /usr/bin/ditto exited with 0
+2018-04-26 01:19:08 +0000  
+
+2018-04-26 01:19:08 +0000  
+2018-04-26 01:19:08 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
